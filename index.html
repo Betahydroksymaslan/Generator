@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Random Number Generator</title>
+		<link rel="stylesheet" href="style.css" tyle="text/css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Fira+Code:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h1>Random Number Generator</h1>
+	</div>
+	<div class="text">
+		<h2>Enter a range for selecting a random number</h2>
+	</div>
+	<form class="formbox">
+	<div class="inputsBox">
+	<input type="text" id="firstInput" class="inputs" name="first_input" placeholder="First Number">
+	<div class="dash">-</div>
+	<input type="text" id="secondInput" class="inputs" name="second_input" placeholder="Second Number">
+	</div>
+	<div class="buttonBox">
+	<button type="submit" class="button" onclick="randomize(); return false;">Random</button>
+	</div>
+	</form>
+		<div class="resulttxtBox"><p id="resulttxt"></p></div>
+		<div class="result"> <p id="resultation"></p>
+		</div>
+
+</div>
+
+<div id="wynik"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js" type="text/javascript"> </script>
+<body>
